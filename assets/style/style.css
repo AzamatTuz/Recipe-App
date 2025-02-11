@@ -13,6 +13,7 @@ header {
     padding: 0 30px;
     width: 100%;
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -65,7 +66,7 @@ button {
 }
 
 .texts {
-    margin-top: 40px;    
+    margin-top: 40px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -110,7 +111,7 @@ button {
 
 .searchDiv img {
     width: 25px;
-    
+
 }
 
 main {
@@ -118,7 +119,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px   ;
+    gap: 30px;
 }
 
 #cardsSection {
@@ -143,7 +144,7 @@ main {
 
 span {
     color: #cecece;
-    
+
 }
 
 .span {
