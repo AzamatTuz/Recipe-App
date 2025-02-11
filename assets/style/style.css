@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px #cecece;
+    padding: 0 30px;
+    width: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    padding: 5px;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.logo {
+    width: 130px;
+}
+
+.reg {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#subscribe {
+    padding: 10px 30px;
+    background: #3cff00;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+#logOut {
+    background: none;
+}
+
+#logOut img {
+    align-self: center;
+    width: 30px;
+    height: 30px;
+}
+
+.texts {
+    margin-top: 40px;    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: 950px;
+}
+
+.texts h1 {
+    font-size: 50px;
+}
+
+.texts p {
+    font-size: 20px;
+}
+
+.texts a {
+    color: #cecece;
+    text-decoration: none;
+}
+
+.searchDiv {
+    display: flex;
+    align-items: center;
+    background: #e8e8e8;
+    border-radius: 10px;
+}
+
+.searchDiv input {
+    width: 500px;
+    padding: 15px;
+    border: none;
+    background: none;
+}
+
+.searchDiv button {
+    background: none;
+    padding: 10px;
+
+}
+
+.searchDiv img {
+    width: 25px;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px   ;
+}
+
+#cardsSection {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    font-weight: 600;
+}
+
+#cardsSection div {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.foodCard {
+    box-shadow: 0 0 10px #cecece;
+    border-radius: 10px;
+}
+
+span {
+    color: #cecece;
+    
+}
+
+.span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 50px;
+}
+
+.cardImage {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
